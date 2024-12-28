@@ -1,4 +1,4 @@
-# Pizza Buona Automation
+# Abbizzeli
 
 A Robot Framework automation script for ordering pizza from pizzabuona.ch. The script automates everything up to the final confirmation, allowing for manual review before placing the order.
 
