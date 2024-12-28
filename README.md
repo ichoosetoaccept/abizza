@@ -44,20 +44,20 @@ cp .env.template .env
 
 2. Edit `.env` with your delivery details:
 ```env
-POSTCODE=1234
-CUSTOMER_FIRST_NAME=John
-CUSTOMER_LAST_NAME=Doe
-STREET_AND_NUMBER=Example Street 123
-PHONE=+41123456789
-EMAIL=example@email.com
-DELIVERY_INFO=1st Floor
+POSTCODE="1234"
+CUSTOMER_FIRST_NAME="John"
+CUSTOMER_LAST_NAME="Doe"
+STREET_AND_NUMBER="Example Street 123"
+PHONE="+41123456789"
+EMAIL="example@email.com"
+DELIVERY_INFO="1st Floor"
 ```
 
 ## Usage
 
 Run the automation:
 ```bash
-robot pizza_order.robot
+./run.sh
 ```
 
 The script will:
