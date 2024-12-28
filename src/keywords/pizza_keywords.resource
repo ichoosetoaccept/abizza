@@ -69,4 +69,4 @@ Complete order
     # Click    css=.btn-buy
     
     Log    Browser will stay open for 1 hour for manual review. Press Ctrl+C to close...
-    Sleep    3600
+    Sleep    60

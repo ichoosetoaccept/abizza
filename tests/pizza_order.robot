@@ -3,7 +3,7 @@ Documentation     RPA script to order pizza from pizzabuona.ch
 ...               This is a business process automation, not a test.
 Library    Browser
 Library    OperatingSystem
-Resource    pizza_keywords.resource
+Resource    ../src/keywords/pizza_keywords.resource
 
 *** Variables ***
 ${POSTCODE}         %{POSTCODE}

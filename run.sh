@@ -1,5 +1,6 @@
 #!/bin/bash
+source .venv/bin/activate
 set -a
-source .env
+source resources/.env
 set +a
-robot pizza_order.robot 
+robot tests/pizza_order.robot 
