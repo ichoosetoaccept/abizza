@@ -10,7 +10,7 @@ A Robot Framework automation script for ordering pizza from pizzabuona.ch. The s
 - Orders a Pizza Contadina with two extra toppings
 - Orders a Calzone Bomba
 - Fills in all delivery details
-- Selects cash payment method
+- Selects on-site credit card payment method
 - Stops at final confirmation for manual review
 
 ## Project Structure
